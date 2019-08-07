@@ -6,10 +6,69 @@ div {
 
 img {
   height: 200px;
+  width: 200px;
   margin: 10px;
+  object-fit: cover;
 }
 
 body {
   margin: 0;
   padding: 0;
+}
+
+h1 {
+  font-family: 'Bangers', cursive;
+  font-size: 70px;
+}
+
+@media screen and (max-width: 900px) {
+  img {
+    height: 150px;
+    width: 150px;
+    margin: 6px;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-size: 52px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  img {
+    height: 200px;
+    width: 200px;
+    margin: 7px;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  img {
+    height: 250px;
+    width: 250px;
+    margin: 7px;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  img {
+    height: 100px;
+    width: 100px;
+    margin: 7px;
+    object-fit: cover;
+  }
+
+  h1 {
+    font-size: 15px;
+  }
 }
